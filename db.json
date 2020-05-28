@@ -1,0 +1,35 @@
+{
+
+"dir1" : [
+  {"m1" :
+         [
+            {"c1": ['path1','pathfile1','commandfile1']},
+            {"c2" : ['path2', 'pathfile2','commandfile2']}
+        ]
+   },
+   {"m2" :
+         [
+            {"c3": ["path3","pathfile3","commandfile3"]},
+            {"c4" : ["path4", "pathfile4","commandfile4"]}
+        ]
+   }
+
+  ],
+
+"dir2" : [
+  {"m3" :
+         [
+            {"c5": ["path5","pathfile5","commandfile5"]},
+            {"c6" : ["path6", "pathfile6","commandfile6"]}
+        ]
+   },
+   {"m4" :
+         [
+            {"c7": ["path7","pathfile7","commandfile7"]},
+            {"c8" : ["path8", "pathfile8","commandfile8"]}
+        ]
+   }
+  ]
+
+
+}
