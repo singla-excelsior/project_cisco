@@ -3,8 +3,8 @@
 "dir1" : [
   {"m1" :
          [
-            {"c1": ['path1','pathfile1','commandfile1']},
-            {"c2" : ['path2', 'pathfile2','commandfile2']}
+            {"c1": ["path1","pathfile1","commandfile1"]},
+            {"c2" : ["path2", "pathfile2","commandfile2"]}
         ]
    },
    {"m2" :
