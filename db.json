@@ -1,35 +1,82 @@
-{
+[
 
-"dir1" : [
-  {"m1" :
-         [
-            {"c1": ["path1","pathfile1","commandfile1"]},
-            {"c2" : ["path2", "pathfile2","commandfile2"]}
-        ]
-   },
-   {"m2" :
-         [
-            {"c3": ["path3","pathfile3","commandfile3"]},
-            {"c4" : ["path4", "pathfile4","commandfile4"]}
-        ]
-   }
+  {
+    "directorName" : "dir1",
+    "managers"  :[
+             {
+              "managerName":"m1",
+               "commands": [
+                 {
+                   "commandName":"c1",
+                   "path":"p1",
+                   "commandFile" :"cf1",
+                   "pathFile" : "pf1"
+                 },
+                 {
+                   "commandName":"c2",
+                   "path":"p2",
+                   "commandFile" :"cf2",
+                   "pathFile" : "pf2"
+                 }
+                           ]
+             },
+             {
+              "managerName":"m2",
+               "commands": [
+                 {
+                   "commandName":"c3",
+                   "path":"p3",
+                   "commandFile" :"cf3",
+                   "pathFile" : "pf3"
+                 },
+                 {
+                   "commandName":"c4",
+                   "path":"p4",
+                   "commandFile" :"cf4",
+                   "pathFile" : "pf4"
+                 }
+             ]
+             }
+          ]
+  },
+  {
+    "directorName" : "dir2",
+    "managers"  :[
+             {
+              "managerName":"m3",
+               "commands": [
+                 {
+                   "commandName":"c5",
+                   "path":"p5",
+                   "commandFile" :"cf5",
+                   "pathFile" : "pf5"
+                 },
+                 {
+                   "commandName":"c6",
+                   "path":"p6",
+                   "commandFile" :"cf6",
+                   "pathFile" : "pf6"
+                 }
+                           ]
+             },
+             {
+              "managerName":"m4",
+               "commands": [
+                 {
+                   "commandName":"c7",
+                   "path":"p7",
+                   "commandFile" :"cf7",
+                   "pathFile" : "pf7"
+                 },
+                 {
+                   "commandName":"c8",
+                   "path":"p8",
+                   "commandFile" :"cf8",
+                   "pathFile" : "pf8"
+                 }
+             ]
+             }
+          ]
+  }
 
-  ],
-
-"dir2" : [
-  {"m3" :
-         [
-            {"c5": ["path5","pathfile5","commandfile5"]},
-            {"c6" : ["path6", "pathfile6","commandfile6"]}
-        ]
-   },
-   {"m4" :
-         [
-            {"c7": ["path7","pathfile7","commandfile7"]},
-            {"c8" : ["path8", "pathfile8","commandfile8"]}
-        ]
-   }
-  ]
-
-
-}
+]
