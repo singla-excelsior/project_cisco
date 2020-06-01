@@ -1,82 +1,14 @@
-[
-
-  {
-    "directorName" : "dir1",
-    "managers"  :[
-             {
-              "managerName":"m1",
-               "commands": [
-                 {
-                   "commandName":"c1",
-                   "path":"p1",
-                   "commandFile" :"cf1",
-                   "pathFile" : "pf1"
-                 },
-                 {
-                   "commandName":"c2",
-                   "path":"p2",
-                   "commandFile" :"cf2",
-                   "pathFile" : "pf2"
-                 }
-                           ]
-             },
-             {
-              "managerName":"m2",
-               "commands": [
-                 {
-                   "commandName":"c3",
-                   "path":"p3",
-                   "commandFile" :"cf3",
-                   "pathFile" : "pf3"
-                 },
-                 {
-                   "commandName":"c4",
-                   "path":"p4",
-                   "commandFile" :"cf4",
-                   "pathFile" : "pf4"
-                 }
-             ]
-             }
-          ]
-  },
-  {
-    "directorName" : "dir2",
-    "managers"  :[
-             {
-              "managerName":"m3",
-               "commands": [
-                 {
-                   "commandName":"c5",
-                   "path":"p5",
-                   "commandFile" :"cf5",
-                   "pathFile" : "pf5"
-                 },
-                 {
-                   "commandName":"c6",
-                   "path":"p6",
-                   "commandFile" :"cf6",
-                   "pathFile" : "pf6"
-                 }
-                           ]
-             },
-             {
-              "managerName":"m4",
-               "commands": [
-                 {
-                   "commandName":"c7",
-                   "path":"p7",
-                   "commandFile" :"cf7",
-                   "pathFile" : "pf7"
-                 },
-                 {
-                   "commandName":"c8",
-                   "path":"p8",
-                   "commandFile" :"cf8",
-                   "pathFile" : "pf8"
-                 }
-             ]
-             }
-          ]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-
-]
+}
