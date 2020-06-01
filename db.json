@@ -1,6 +1,6 @@
-{
+[
 
-  [
+  {
     "directorName" : "dir1",
     "managers"  :[
              {
@@ -38,8 +38,8 @@
              ]
              }
           ]
-  ],
-  [
+  },
+  {
     "directorName" : "dir2",
     "managers"  :[
              {
@@ -77,6 +77,6 @@
              ]
              }
           ]
-  ]
-}
+  }
+]
 
