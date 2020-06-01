@@ -1,35 +1,88 @@
-{
-    "users": [{
-            "id": 1,
-            "firstName": "Bill",
-            "lastName": "Gates",
-            "email": "bill@microsoft.com"
-        },
-        {
-            "id": 2,
-            "firstName": "Mark",
-            "lastName": "Zuckerberg",
-            "email": "mark@facebook.com"
-        },
-        {
-            "id": 3,
-            "firstName": "Jeff",
-            "lastName": "Bezos",
-            "email": "jeff@amazon.com"
-        }
-    ],
-    "companies": [{
-            "id": 1,
-            "name": "Microsoft"
-        },
-        {
-            "id": 2,
-            "name": "Facebook"
-        },
-        {
-            "id": 3,
-            "name": "Amazon"
-        }
-    ]
 
+{
+"directors" : 
+
+[
+
+  {
+    "directorName" : "dir1",
+    "managers"  :[
+             {
+              "managerName":"m1",
+               "commands": [
+                 {
+                   "commandName":"c1",
+                   "path":"p1",
+                   "commandFile" :"cf1",
+                   "pathFile" : "pf1"
+                 },
+                 {
+                   "commandName":"c2",
+                   "path":"p2",
+                   "commandFile" :"cf2",
+                   "pathFile" : "pf2"
+                 }
+                           ]
+             },
+             {
+              "managerName":"m2",
+               "commands": [
+                 {
+                   "commandName":"c3",
+                   "path":"p3",
+                   "commandFile" :"cf3",
+                   "pathFile" : "pf3"
+                 },
+                 {
+                   "commandName":"c4",
+                   "path":"p4",
+                   "commandFile" :"cf4",
+                   "pathFile" : "pf4"
+                 }
+             ]
+             }
+          ]
+  },
+  {
+    "directorName" : "dir2",
+    "managers"  :[
+             {
+              "managerName":"m3",
+               "commands": [
+                 {
+                   "commandName":"c5",
+                   "path":"p5",
+                   "commandFile" :"cf5",
+                   "pathFile" : "pf5"
+                 },
+                 {
+                   "commandName":"c6",
+                   "path":"p6",
+                   "commandFile" :"cf6",
+                   "pathFile" : "pf6"
+                 }
+                           ]
+             },
+             {
+              "managerName":"m4",
+               "commands": [
+                 {
+                   "commandName":"c7",
+                   "path":"p7",
+                   "commandFile" :"cf7",
+                   "pathFile" : "pf7"
+                 },
+                 {
+                   "commandName":"c8",
+                   "path":"p8",
+                   "commandFile" :"cf8",
+                   "pathFile" : "pf8"
+                 }
+             ]
+             }
+          ]
+  }
+
+]
+    
 }
